@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="android:Theme.Material">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/White</item>
+        <item name="android:colorPrimaryDark">@color/Blue</item>
+        <item name="android:textColorPrimary">#000000</item>
+
+    </style>
+
+
+    <style name="EditTextLabelUpper">
+        <item name="android:textColor">@color/LightBlue</item>
+        <item name="android:background">@color/White</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+
+
+
+</resources>

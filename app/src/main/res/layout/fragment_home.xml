@@ -1,0 +1,37 @@
+<id11503808.sproutfinal.FragmentDrawer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true">
+
+        <include
+            android:id="@+id/tool_bar"
+            layout="@layout/toolbar"/>
+
+        <FrameLayout
+            android:id="@+id/frame_layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <!-- The navigation drawer -->
+    <ListView
+        android:id="@+id/listViewNav"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:paddingTop="24dp"
+        android:divider="#ffffff"
+        android:dividerHeight="1dp"
+        android:background="#000000" />
+
+
+</id11503808.sproutfinal.FragmentDrawer>

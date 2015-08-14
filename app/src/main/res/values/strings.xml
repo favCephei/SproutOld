@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SproutTech</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name='facebook_app_id'>817111471696580</string>
+    <string name="splash_txt_loading">Loading...</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_signin">SigninActivity</string>
+    <string name="title_login">EVERYONE\'S WEALTH ADVISER&#8482;</string>
+    <string name="txt_next">NEXT</string>
+    <string name="txt_consolidate">CONSOLIDATE</string>
+    <string name="txt_grow_your_sprout">GROW YOUR SPROUT</string>
+</resources>

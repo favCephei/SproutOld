@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="studiocephei.sprouttech.FragmentOverview">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+
+
+        <ImageView
+            android:layout_width="121dp"
+            android:layout_height="240dp"
+            android:src="@drawable/leaf_gif" />
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="@color/LightBlue"
+            android:id="@+id/tv_money_amount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="$121,318.42"
+            android:gravity="center_horizontal"
+            android:textSize="48dp"
+
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:textColor="@color/White"
+            android:id="@+id/tv_lets_do_it"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Let's now invest your money" />
+
+
+
+
+        <Button
+            android:id="@+id/btn_grow"
+            android:background="@color/White"
+            android:textColor="@color/DarkBlue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:padding="19dp"
+            android:textSize="28dp"
+            android:text="@string/txt_grow_your_sprout"/>
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
